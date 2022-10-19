@@ -1,6 +1,6 @@
 
 tasks:
-  - init: mvn spring-boot:run
+  - init: rm -rf data; mvn spring-boot:run
     command: mvn
 ports:
   - port: 8080
